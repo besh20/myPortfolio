@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Samuel's Portfolio</title>
+<meta name="description" content="Portfolio of data science and machine learning projects — forecasting, classification, and clustering, deployed and live." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="nav" id="nav">
+  <a href="#top" class="nav__mark">11:36<span class="nav__mark-dot">.</span></a>
+  <nav class="nav__links">
+    <a href="#work">Work</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero__chart" aria-hidden="true">
+      <svg viewBox="0 0 600 220" preserveAspectRatio="none" id="sparkline">
+        <polyline id="sparkline-path" fill="none" stroke="var(--accent)" stroke-width="2"
+          points="0,160 40,150 80,168 120,120 160,140 200,90 240,110 280,70 320,95 360,55 400,80 440,40 480,60 520,25 560,45 600,20" />
+      </svg>
+      <div class="hero__grid" aria-hidden="true"></div>
+    </div>
+
+    <p class="eyebrow mono">Data Scientist. Applied ML</p>
+    <h1 class="hero__title">
+      Hi, I'm <span class="hero__name">Samuel.</span><br>
+      I build live models that <span class="hero__accent">ships</span>.
+    </h1>
+    <p class="hero__sub">
+      These are a running collection of production data science and ML work,
+      not slides in a notebook. Every project here is deployed and live,
+      and this list grows every time I finish something new.
+    </p>
+    <div class="hero__cta">
+      <a href="#work" class="btn btn--primary">See the work</a>
+      <a href="#contact" class="btn btn--ghost">Get in touch</a>
+    </div>
+    <p class="hero__stat mono" id="hero-stat" aria-hidden="true"></p>
+  </section>
+
+  <!-- WORK -->
+  <section class="work" id="work">
+    <div class="section-head">
+      <p class="eyebrow mono">Selected work</p>
+      <h2>Live projects, not screenshots.</h2>
+      <p class="section-sub">Every cards below are trained models behind an interface you can try right now. First load on a sleeping app may take ~30 seconds to wake up.</p>
+    </div>
+
+    <div class="filters mono" id="filters" role="tablist" aria-label="Filter projects by category"></div>
+
+    <div class="cards" id="cards"></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about__text">
+      <p class="eyebrow mono">About</p>
+      <h2>A little about me.</h2>
+      <p>
+        I'm a data scientist and ML engineering enthusiast who likes to solve real world problem by 
+        training a model and deploying it for the end user/s to help out his/their daily troubles.
+      <p> 
+        I'm a recent Computer science graduate who has a knack for data. I try to make something 
+        out of a raw data, and turn it into something useful. and this portfolio tries to prove that.  
+        its where my work lives. Every project I ship that's worth showing gets added here,
+        deployed and live.
+      </p>
+      </p>
+      <p>
+        Please have a look, its free. And if you have any thoughts, feedback, or want to communicate reach out via email/socials.
+      </p>
+    </div>
+    <div class="about__skills">
+      <div class="skill-group">
+        <p class="mono skill-group__label">Languages</p>
+        <ul class="tags mono">
+          <li>Python</li>
+          <li>SQL</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <p class="mono skill-group__label">ML &amp; Data</p>
+        <ul class="tags mono">
+          <li>scikit-learn</li>
+          <li>Pandas</li>
+          <li>Visuals (matplotlib, seaborn)</li>
+          <li>Pandas</li>
+          <li>Time Series</li>
+          <li>Regression</li>
+          <li>Classification </li>
+          <li>Clustering</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <p class="mono skill-group__label">Tools</p>
+        <ul class="tags mono">
+          <li>Streamlit</li>
+          <li>Git / GitHub</li>
+          <li>Jupyter</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <p class="eyebrow mono">Contact</p>
+    <h2>Let's talk.</h2>
+    <p class="contact__sub">Open to opportunities in data science and applied ML. The fastest way to reach me is email.</p>
+    <a href="mailto:samuelbeshir23@gmail.com" class="btn btn--primary btn--lg">Email Me</a>
+    <div class="contact__links mono">
+      <a href="http://github.com/besh20" target="_blank" rel="noopener">GitHub ↗</a>
+      <a href="https://www.linkedin.com/in/samuel-b-983466310" target="_blank" rel="noopener">LinkedIn ↗</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer mono">
+  <span>&copy; 2026 Samuel.</span>
+  <span>Built with plain HTML, CSS &amp; a bit of stubbornness.</span>
+</footer>
+
+<script src="projects.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
