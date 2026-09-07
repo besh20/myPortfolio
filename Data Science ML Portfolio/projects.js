@@ -35,5 +35,41 @@ const PROJECTS = [
     liveUrl: "https://computer-price-predictor-app.streamlit.app/",
     codeUrl: "https://github.com/besh20/QIYAS-Data-Science-AI/tree/main/Supervised/Laptop_Price_Prediction"
   },
+  
+  {
+    title: "Real vs. Manipulated Face Detector",
+    category: "computer-vision",
+    categoryLabel: "Computer Vision",
+    status: "live",
+    date: "2026",
+    description: "A CNN-based detector that spots digitally manipulated faces using Error Level Analysis and Grad-CAM explainability.",
+    tags: ["Python", "TensorFlow", "OpenCV", "Streamlit"],
+    liveUrl: "https://qiyas-data-science-ai-fx5uygkhcsyy5anvd49gfk.streamlit.app/",
+    codeUrl: "https://github.com/besh20/QIYAS-Data-Science-AI/tree/main/Deep_Learning/CV/Deep_fake_classifier"
+  },
+
+  {
+  title: "Amharic Sentiment Analyzer",
+  category: "nlp",
+  categoryLabel: "NLP",
+  status: "live",
+  date: "2026",
+  description: "Fine-tuned transformer models for sentiment classification in Amharic a language largely absent from mainstream NLP tools. Diagnosed and fixed a critical data-quality failure in an auto-labeled dataset by switching to human-annotated benchmarks.",
+  tags: ["Python", "PyTorch", "Transformers", "XLM-RoBERTa", "Streamlit", "Hugging Face"],
+  liveUrl: "https://qiyas-data-science-ai-femncgxlt7myywxk2kpige.streamlit.app/",
+  codeUrl: "https://github.com/besh20/QIYAS-Data-Science-AI/tree/main/Deep_Learning/NLP/amharic_sentiment_classifier", 
+},
+
+{
+  title: "Amharic News Classifier",
+  category: "nlp",
+  categoryLabel: "NLP",
+  status: "live",
+  date: "2026",
+  description: "Fine-tuned a multilingual transformer to classify Amharic news articles into 6 topics (politics, sport, business, entertainment, local and international news), reaching 87.7% weighted F1.",
+  tags: ["Python", "PyTorch", "Transformers", "XLM-RoBERTa", "Streamlit", "Hugging Face"],
+  liveUrl: "https://qiyas-data-science-ai-eqq6za3x5wbcdpfkf7b24w.streamlit.app/",
+  codeUrl: "https://github.com/besh20/QIYAS-Data-Science-AI/tree/main/Deep_Learning/NLP/amharic-news-classifier", 
+},
 
 ];
