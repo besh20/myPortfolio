@@ -15,6 +15,18 @@ const PROJECTS = [
   },
 
   {
+  title: "Selam Desk — Bilingual AI Registration Agent",
+  category: "agentic-ai",
+  categoryLabel: "Agentic AI / NLP",
+  status: "live",
+  date: "2026",
+  description: "A tool-calling LLM agent for Ethiopian university registration desks, handling information lookup, registration, complaints, and staff escalation in Amharic and English (including Latin-script Amharic). Built and validated Ethiopian-calendar date logic, per-session safety isolation for concurrent users, and a full offline test suite covering registration edge cases before deployment.",
+  tags: ["Python", "Streamlit", "Gemini API", "RAG", "FAISS", "Function Calling", "scikit-learn", "SQLAlchemy"],
+  liveUrl: "https://qiyas-data-science-ai-mn5ttynh5thzdo28hptc5x.streamlit.app/",
+  codeUrl: "https://github.com/besh20/QIYAS-Data-Science-AI/tree/main/GenAI/selam-desk"
+  },
+
+  {
   title: "Amharic Sentiment Analyzer",
   category: "nlp",
   categoryLabel: "NLP",
