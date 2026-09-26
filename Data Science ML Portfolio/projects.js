@@ -21,7 +21,7 @@ const PROJECTS = [
   status: "live",
   date: "2026",
   description: "A tool-calling LLM agent for Ethiopian university registration desks, handling information lookup, registration, complaints, and staff escalation in Amharic and English (including Latin-script Amharic).",
-  tags: ["Python", "Streamlit", "Gemini API", "RAG", "FAISS", "Function Calling", "scikit-learn", "SQLAlchemy"],
+  tags: ["Python", "Streamlit", "Gemini API", "RAG", "FAISS",],
   liveUrl: "https://qiyas-data-science-ai-mn5ttynh5thzdo28hptc5x.streamlit.app/",
   codeUrl: "https://github.com/besh20/QIYAS-Data-Science-AI/tree/main/GenAI/selam-desk"
   },
